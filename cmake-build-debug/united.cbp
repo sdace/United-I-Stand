@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="united"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/joseborrell/CLionProjects/united_i_stand/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/joseborrell/CLionProjects/united_i_stand/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/joseborrell/CLionProjects/united_i_stand/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/joseborrell/CLionProjects/united_i_stand/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/joseborrell/CLionProjects/united_i_stand/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/joseborrell/CLionProjects/united_i_stand/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/joseborrell/CLionProjects/united_i_stand/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/joseborrell/CLionProjects/united_i_stand/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/joseborrell/CLionProjects/united_i_stand/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/joseborrell/CLionProjects/united_i_stand/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/joseborrell/CLionProjects/united_i_stand/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/joseborrell/CLionProjects/united_i_stand/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/joseborrell/CLionProjects/united_i_stand/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/joseborrell/CLionProjects/united_i_stand/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/joseborrell/CLionProjects/united_i_stand/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="united">
+				<Option output="/Users/joseborrell/CLionProjects/united_i_stand/cmake-build-debug/united" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/joseborrell/CLionProjects/united_i_stand/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/joseborrell/CLionProjects/united_i_stand/src"/>
+					<Add directory="/Users/joseborrell/CLionProjects/united_i_stand/ext/stb_image"/>
+					<Add directory="/Users/joseborrell/CLionProjects/united_i_stand/ext/gl3w"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
+					<Add directory="/usr/local/include/SDL2"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/joseborrell/CLionProjects/united_i_stand/cmake-build-debug/Makefile&quot;  VERBOSE=1 united"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/joseborrell/CLionProjects/united_i_stand/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/joseborrell/CLionProjects/united_i_stand/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/joseborrell/CLionProjects/united_i_stand/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="united/fast">
+				<Option output="/Users/joseborrell/CLionProjects/united_i_stand/cmake-build-debug/united" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/joseborrell/CLionProjects/united_i_stand/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/joseborrell/CLionProjects/united_i_stand/src"/>
+					<Add directory="/Users/joseborrell/CLionProjects/united_i_stand/ext/stb_image"/>
+					<Add directory="/Users/joseborrell/CLionProjects/united_i_stand/ext/gl3w"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
+					<Add directory="/usr/local/include/SDL2"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/joseborrell/CLionProjects/united_i_stand/cmake-build-debug/Makefile&quot;  VERBOSE=1 united/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/joseborrell/CLionProjects/united_i_stand/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/joseborrell/CLionProjects/united_i_stand/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/joseborrell/CLionProjects/united_i_stand/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Components/aabb_component.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Components/checkpoint_component.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Components/collider_component.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Components/death_component.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Components/facing_component.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Components/gravity_component.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Components/hurtbox_component.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Components/killable_component.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Components/oscillator_component.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Components/player_component.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Components/player_input_component.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Components/position_component.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Components/renderable_component.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Components/solid_component.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Components/tile_collider_component.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Components/velocity_component.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Systems/camera_system.cpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Systems/camera_system.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Systems/checkpoint_system.cpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Systems/checkpoint_system.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Systems/collision_movement_system.cpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Systems/collision_movement_system.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Systems/collision_system.cpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Systems/collision_system.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Systems/gravity_system.cpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Systems/gravity_system.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Systems/movement_system.cpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Systems/movement_system.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Systems/oscillating_system.cpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Systems/oscillating_system.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Systems/player_control_system.cpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Systems/player_control_system.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Systems/player_death_system.cpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Systems/player_death_system.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Systems/render_system.cpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Systems/render_system.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Systems/room_system.cpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Systems/room_system.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Systems/tile_collision_system.cpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Systems/tile_collision_system.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Systems/user_input_system.cpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/Systems/user_input_system.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/component_array.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/component_type.cpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/component_type.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/entity.cpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/entity.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/entity_manager.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/entity_query.cpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/entity_query.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/entity_system.cpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/ECS/entity_system.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/Events/activate_checkpoint_event.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/Events/character_swap_event.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/Events/player_death_event.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/Events/player_respawn_event.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/Events/room_change_event.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/G-Unit/g_unit.cpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/G-Unit/g_unit.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/G-Unit/util/g_states_file_reader.cpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/G-Unit/util/g_states_file_reader.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/G-Unit/util/texture_loader.cpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/G-Unit/util/texture_loader.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/SoundPlayer/sound_player.cpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/SoundPlayer/sound_player.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/SoundPlayer/util/sound_loader.cpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/SoundPlayer/util/sound_loader.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/TI/background_manager.cpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/TI/background_manager.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/TI/room.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/TI/room_service.cpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/TI/room_service.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/TI/texture_atlas.cpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/TI/texture_atlas.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/TI/tile_importer.cpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/TI/tile_importer.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/TI/tile_render_manager.cpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/TI/tile_render_manager.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/TI/tilemap.cpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/TI/tilemap.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/TI/tmx_parser/pugiconfig.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/TI/tmx_parser/pugixml.cpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/TI/tmx_parser/pugixml.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/checkpoint_service.cpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/checkpoint_service.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/common.cpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/common.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/event.cpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/event.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/event_manager.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/keyboard_service.cpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/keyboard_service.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/main.cpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/player_spawn_position_service.cpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/player_spawn_position_service.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/project_path.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/spawners/enemy_spawner.cpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/spawners/enemy_spawner.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/spawners/platform_spawner.cpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/spawners/platform_spawner.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/spawners/player_spawner.cpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/spawners/player_spawner.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/spawners/spawner.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/world.cpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/world.hpp">
+			<Option target="united"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/joseborrell/CLionProjects/united_i_stand/src/project_path.hpp.in">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
